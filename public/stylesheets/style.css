@@ -1,0 +1,323 @@
+body {
+  font-family: "Bubbler One";
+  font-size: 20px;
+}
+
+.categoria {
+  text-align: center;
+}
+
+.head4 {
+  text-align: center;
+}
+
+#map {
+ height: 400px;
+ width: 100%;
+}
+
+.registration1 {
+  background-color: rgb(170, 188, 205);
+}
+
+segment2 {
+  color: white;
+  background-color: rgb(170, 188, 205);
+}
+
+/*segment3 {
+  background-color: #fff;
+}*/
+
+.image {
+  width: 700px;
+  height: 500px;
+}
+
+.perfil {
+  background-color: rgb(170, 188, 205);
+  padding: 20px;
+}
+
+.perfil2 {
+  background-color: rgb(38, 164, 152);
+  padding: 20px;
+}
+
+h3 {
+  color: black;
+}
+
+.teal {
+  padding: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(38, 164, 152);
+}
+
+.font1, .font {
+    font-family: 'Bubbler One', sans-serif;
+}
+
+/*.video {
+  position: fixed;
+}*/
+nav {
+  background-color: rgb(38, 164, 152);
+}
+
+/*.nav2 {
+  background-color: rgb(38, 164, 152);
+}*/
+
+.btn, .btn-large {
+  background-color: !#ffebee;
+}
+
+.right {
+  background-color: #e8eaf6;
+}
+
+.stopfade {
+   opacity: .5;
+}
+
+.brand-logo {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+ button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+button:hover {
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: table-row-group;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background;
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+
+.about {
+  background-color: white;
+  font-size: 20px;
+  height: 1000px;
+}
+
+.searchform {
+  display: inline-block;
+  margin: 0;
+  overflow: hidden;
+  width: 50%;
+  text-align: center;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+ul:hover {
+	cursor: pointer;
+  color: #ADEAEA;
+}
+
+form {
+	text-align: center;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+label, input {
+  vertical-align: baseline;
+  color: #737373;
+  font-family: 'Bubbler One', sans-serif;
+}
+label {
+  margin: 0.125em 0.125em 0 0;
+  float: right;
+
+}
+input[type="search"] {
+  border: 2px solid #737373;
+  border-width: 0 0 3px;
+  background-color: transparent;
+  font: 22px "Open Sans", sans-serif;
+  padding: 0.125em 0.225em;
+  width: 85%;
+  float: center;
+}
+
+input[type="search"]:focus {
+  color: #E18728;
+  border-color: #E18728;
+  outline: none;
+}
+
+.pueblo{
+  font-size: 15px;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+ul li ul {
+  max-height:250px;/* you can change as you need it */
+     overflow:auto;/* to get scroll */
+}
+
+.button {
+  border-radius: 4px;
+/*  background-color: #f4511e; */
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.start{
+  background-image: url("https://farm3.staticflickr.com/2944/15139334607_178c9f2a79_b.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  text-align: center;
+  padding: 100px;0
+  margin-bottom: 20px;
+  border-color: #c6434f;
+  border-width: medium;
+}
+
+.start h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #030803;
+}
+
+.what
+{
+  background-color: rgb(170, 188, 205);
+  text-align: justify;
+  height: 460px;
+  margin: auto;
+  font-size: 25px;
+}
+
+.what p {
+  border-color: #c6434f;
+  border-width: 10px;
+  padding: 10% 0;
+  padding-left: 45px;
+}
+
+
+.what2 img{
+  padding: 40px;
+  margin-top: 10%;
+}
+.people{
+  width: 650px;
+  height: 165px;
+}
+.what2 {
+  background-color: rgb(38, 164, 152);
+  text-align: justify;
+  height: 300px;
+  font-size: 25px;
+}
+
+.what2 p {
+  padding: 40px;
+}
+
+.how{
+  width: 600px;
+  height: 150px;
+}
+.waves-effect .waves-light {
+  background-color: #c5cae9;
+}
+
+.registration {
+  background-color: rgb(38, 164, 152);
+}
+
+
+.button2 {
+  background-color: #e8eaf6;
+  color: gray;
+}
+
+.image {
+  padding: 20px;
+}
+
+#equipo {
+  width: 60vw;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.userImg{
+  float: left;
+  width: 10%;
+}
+
+.container{
+  /*width: 400px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mjm{
+  margin: 0 50px;
+  text-align: justify;
+}
